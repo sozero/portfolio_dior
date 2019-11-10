@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery.bxslider.css">
+
+    <title>DIOR</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 전체 -->
+    <div class="allcontainer">
+
+        <!-- 네비게이션 -->
+        <header class="header">
+            <div class="quickicon">
+                <ul class="header_left">
+                    <li class="icon_menu">
+                        <a href="#"> <img src="./img/icon_menu.png" alt="메뉴"></a>
+                    </li>
+                    <li class="mobile_off tablet_on">
+                        <a href="#"><img src="./img/icon_global.png" alt="글로벌"></a>
+                    </li>
+                </ul>
+                <h1 class="header_logo">
+                    <a href="#"><img src="./img/header_logo.png" alt="로고"> </a>
+                </h1>
+                <ul class="header_right">
+                    <li class="mobile_off tablet_on">
+                        <a href="#"><img src="./img/icon_login.png" alt="로그인"></a>
+                    </li>
+                    <li class="mobile_off tablet_on">
+                        <a href="#"><img src="./img/icon_heart.png" alt="찜"></a>
+                    </li>
+                    <li class="icon_cart">
+                        <a href="#"><img src="./img/icon_cart.png" alt="장바구니"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <nav id="nav">
+                <div class="menuheader ">
+                    <button class="menuclose"><img src="./img/icon_close.png" alt="닫기"></button>
+                    <div class="menu_on_logo ">
+                        <a href="#"><img src="./img/header_logo.png" alt="로고"></a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="menu_list">
+                        <li> <a class="abc" href="#">STORY</a></li>
+                        <li> <a href="#">PRODUCT</a></li>
+                        <li> <a href="#">ESSENCE</a></li>
+                        <li> <a href="#">MADE BY</a></li>
+                    </ul>
+                    <!-- 모바일에서만 on -->
+                    <div class="mobile_on menu_on_langlog">
+                        <div>
+                            <span><a href="#">Language</a></span>
+                            <span><a href="#">Log In</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+            <!-- 메뉴 on -->
+
+        </header>
+        <!-- 위로가기버튼 -->
+        <button id="top" title="Go to top">
+            <span>위로가기</span>
+        </button>
+
+        <!-- cont1 / 영상 광고-->
+        <section class="cont1">
+            <div class="cont1imgsection">
+                <ul class="cont1img bxslider">
+                    <li>
+                        <span
+                            style="background-image:url(./img/cont1_tablet_bg1.jpg); background-repeat:no-repeat; background-position: left; background-size:cover "></span>
+                    </li>
+                    <li>
+                        <span
+                            style="background-image:url(./img/cont1_tablet_bg2.jpg); background-repeat:no-repeat; background-position: center; background-size:cover "></span>
+                    </li>
+                    <li>
+                        <span
+                            style="background-image:url(./img/cont1_tablet_bg3.jpg); background-repeat:no-repeat; background-position: center; background-size:cover "></span>
+                    </li>
+                    <li>
+                        <span
+                            style="background-image:url(./img/cont1_tablet_bg4.jpg); background-repeat:no-repeat; background-position: center; background-size:cover "></span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="cont1vdosection">
+                <ul class="cont1vdo">
+                    <li class=" mobile_off">
+                        <iframe
+                            src="https://www.youtube.com/embed/4NXbiGTmbrc?disablekb=1&autoplay=1&loop=1&playlist=4NXbiGTmbrc&mute=1&controls=0&iv_load_policy=3&fs=0&cc_load_policy=0"
+                            frameborder="0" allowfullscreen>
+                        </iframe>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+            </div>
+            <!-- <div class="cont1btns ">
+                <ul>
+                    <li> <span>J'adore</span> </li>
+                    <li> <span>Miss dior</span></li>
+                    <li> <span>Sauvage</span> </li>
+                    <li> <span>Poison</span> </li>
+                </ul>
+            </div> -->
+
+        </section>
+
+        <!-- cont2 / newproduct,bestseller -->
+        <section class="cont2">
+            <!--new product -->
+            <div class="cont2contmobile cont2_left ">
+                <div class="cont2cont">
+                    <h2>NEW PRODUCT</h2>
+                    <ul class="cont2_product newproduct">
+                        <li><span>쟈도르 상품이미지</span> </li>
+                        <li><span>미스 디올 상품이미지</span> </li>
+                        <li><span>사바쥬 상품이미지</span> </li>
+                        <!-- span div b i 만 비우는거가능 -->
+                    </ul>
+                    <button class="cont2_btn cont2_btnl pc_on">
+                        <img class="btnl" src="./img/btn_left_g.png" alt="이전상품">
+                    </button>
+                    <button class="cont2_btn cont2_btnr  pc_on">
+                        <img class="btnr" src="./img/btn_right_g.png" alt="다음상품">
+                    </button>
+                    <ul class="cont2_product_no">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+
+                    <a class="btn_mobile_common btn_mobile_common_w viewmore_w" href="#"> View More</a>
+                </div>
+            </div>
+            <!--best seller -->
+            <div class="cont2contmobile cont2_right ">
+                <div class="cont2cont">
+                    <h2>BEST SELLER</h2>
+                    <ul class="cont2_product bestseller">
+                        <li><span>쟈도르 상품이미지</span> </li>
+                        <li><span>미스 디올 상품이미지</span> </li>
+                        <li><span>사바쥬 상품이미지</span> </li>
+                    </ul>
+                    <button class="cont2_btn cont2_btnl pc_on">
+                        <img class="btnl" src="./img/btn_left_g.png" alt="이전상품">
+                    </button>
+                    <button class="cont2_btn cont2_btnr  pc_on">
+                        <img class="btnr" src="./img/btn_right_g.png" alt="다음상품">
+                    </button>
+                    <ul class="cont2_product_no">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+
+                    <a class="btn_mobile_common btn_mobile_common_b viewmore_b" href="#"> View More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- cont3 / the quest for essence -->
+        <section class="cont3 cont3contmobile ">
+            <!-- cont3 title -->
+            <div class="cont3_titlebg pc_off ">
+                <div class="cont3_title">
+                    <div>The Quest for</div>
+                    <h2>Essences</h2>
+                </div>
+
+            </div>
+            <!-- cont3 배경이미지 -->
+            <div class="cont3bg">
+                <div class="cont3bg1">
+                    <h3 class="cont3left cont3h3_1">Episode 1</h3>
+                    <h4 class="cont3left cont3h4_1">5월의 그라스산 장미</h4>
+                </div>
+                <div class="cont3bg2">
+                    <h3 class="cont3right cont3h3_2">Episode 2</h3>
+                    <h4 class="cont3right cont3h4_2">칼라브리아산 베르가못</h4>
+                </div>
+                <div class="cont3bg3">
+                    <h3 class="cont3left cont3h3_3">Episode 3</h3>
+                    <h4 class="cont3left cont3h4_3">인도산 자스민</h4>
+                </div>
+                <div class="cont3bg4">
+                    <h3 class="cont3right cont3h3_4">Episode 4</h3>
+                    <h4 class="cont3right cont3h4_4">그라스산 <br>그랜드 플로럼 자스민</h4>
+                </div>
+                <div class="cont3bg5">
+                    <h3 class="cont3middle cont3h3_5">Episode5</h3>
+                    <h4 class="cont3middle cont3h4_5">노지베산 일랑일랑</h4>
+                </div>
+            </div>
+            <div class="cont3_titlebg mobile_off tablet2_on ">
+                <div class="cont3_title">
+                    <div>The Quest for</div>
+                    <h2>Essences</h2>
+                </div>
+            </div>
+            <a class="btn_mobile_common btn_mobile_common_b viewmore_b cont3_tablet_viewmore" href="#"> View
+                More</a>
+        </section>
+
+        <!-- cont4 / made by dior -->
+        <div class="cont4 ">
+            <!-- cont4 내용 -->
+
+            <div class="cont4_titlebg ">
+                <h2>MADE BY DIOR</h2>
+            </div>
+
+            <div class="cont4_cont">
+                <div class="cont4_iframe_cv">
+                    <iframe class="cont4_iframe mobile_off"
+                        src="https://www.youtube.com/embed/kvxTNrhNme0?disablekb=1&autoplay=1&loop=1&playlist=kvxTNrhNme0&mute=1&controls=0&iv_load_policy=3&fs=0&cc_load_policy=0"
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="cont4_letter">
+                    <h2>"모든것은 원료에서 시작됩니다."</h2>
+                    <h3>- 디올 퍼퓸 크리에이티브 디렉터 '프랑소와 드마시' -</h3>
+                    <a class="cont4_btn btn_mobile_common btn_mobile_common_w viewmore_w cont4_tablet_viewmore "
+                        href="#"> View More</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_left">
+                <div class="snscover">
+                    <ul class="sns">
+                        <li class="sns_insta">
+                            <a href="https://www.instagram.com/diorparfums/" target="_blank">인스타그램</a>
+                        </li>
+                        <li class="sns_fb">
+                            <a href="https://www.facebook.com/Dior/" target="_blank">페이스북 </a>
+                        </li>
+                        <li class="sns_tw" target="_blank">
+                            <a href="https://twitter.com/dior">트위터</a>
+                        </li>
+                        <li class="sns_tbr" target="_blank">
+                            <a href="https://www.tumblr.com/tagged/dior-perfume">텀블러 </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cs">
+                    <h3>고객센터</h3>
+                    <a href="tel:02-3480-0104">02-3480-0104</a>
+                    <a href="malito:contactkiorko@dior.com">( contactkiorko@dior.com )</a>
+                </div>
+                <div class="cs2cover">
+                    <ul class="cs2">
+                        <li><a href="#"> 문의 | </a></li>
+                        <li><a href="#">배송 및 반품 |</a> </li>
+                        <li><a href="#">FAQ | </a> </li>
+                        <li><a href="#">뉴스레터신청 |</a> </li>
+                        <li><a href="#">채용정보 |</a> </li>
+                        <li><a href="#"> 법정고지 |</a> </li>
+                        <li> <a class="fontcolored" href="#">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+                <div class="address">
+                    크리스찬디올꾸뛰르코리아주식회사
+                    <br>06015 서울특별시 강남구 압구정로 464 (청담동)
+                    <br>사업자등록번호: 211-85-607241
+                    <br>통신판매업 신고번호: 2016-서울강남-01701
+                    <br>개인정보관리책임자: 김지혜
+                </div>
+            </div>
+
+            <div class="footer_right">
+                <div class="footer_right_cover">
+                    <div class="footer_right_title">
+                        <div class="icon_location"><span> 위치아이콘</span></div>
+                        <h3>부띠끄 위치</h3>
+                    </div>
+                    <div class="findstore">
+                        <div class="storesearch">
+                            <input type="text" placeholder="검색어 입력" name="address">
+                            <button> <span>SEARCH</span> </button>
+                        </div>
+                        <div id="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                COPYRIGHT ⓒ CHRISTIAN DIOR COUTURE KOREA ALL REGHTS RESERVED.
+            </div>
+        </footer>
+
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3e96f6e84b11406cae66532e961e0483"> -->
+    </script>
+    <!-- services 라이브러리 불러오기 -->
+    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=APIKEY&libraries=services"></script>
+    <script>
+        var container = document.getElementById('map');
+        var options = {
+            center: new kakao.maps.LatLng(37.524769, 127.046484),
+            level: 3
+        };
+
+        var map = new kakao.maps.Map(container, options);
+    </script> -->
+
+
+
+
+
+</body>
+
+
+</html>
